@@ -52,12 +52,6 @@ const Sidebar = () => (
           </div>
         </div>
       </div>
-      <div className="section-title">
-        <h4>Categories</h4>
-      </div>
-      <div className="section-title">
-        <h4>Categories</h4>
-      </div>
     </div>
   </div>
 );

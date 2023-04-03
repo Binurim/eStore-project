@@ -2,9 +2,9 @@ import "./_product.scss";
 
 const products = [
   require("../../assets/images/coat.jpg"),
-  require("../../assets/images/coat.jpg"),
-  require("../../assets/images/coat.jpg"),
-  require("../../assets/images/coat.jpg"),
+  require("../../assets/images/coat2.jpg"),
+  require("../../assets/images/coat3.jpg"),
+  require("../../assets/images/coat4.jpg"),
 ];
 
 const Product = () => (
