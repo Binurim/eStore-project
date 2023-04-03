@@ -1,3 +1,5 @@
+$headerTextColor: white;
+
 .header{
     background: #282c34;
     box-shadow: 0px 5px 10px lightslategray;
@@ -5,7 +7,7 @@
   
   .header__logo{
     padding: 10px 20px;
-    color: white;
+    color: $headerTextColor;
   }
   
   .header__right{
@@ -16,7 +18,7 @@
     display: inline-block;
     margin-right: 25px;
     a{
-        color: white !important;
+        color: $headerTextColor !important;
         &:hover{
             color: yellowgreen !important;  
             text-decoration: none;
