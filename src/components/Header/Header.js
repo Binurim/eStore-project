@@ -1,7 +1,9 @@
+import TopMenu from "../TopMenu/TopMenu";
 import "./_header.scss";
 
 const Header = () => {
   return (
+    <>
     <header className="header">
       <div className="container-fluid">
         <div className="row">
@@ -46,6 +48,8 @@ const Header = () => {
         </div>
       </div>
     </header>
+    <TopMenu/>
+    </>
   );
 };
 

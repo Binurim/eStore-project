@@ -1,0 +1,19 @@
+.menuHeader {
+    background: black;
+}
+
+.menu{
+    ul{
+        margin: 6px 0;
+        li{
+            list-style: none;
+            display: inline-block;
+            margin-right: 40px;
+        }
+        a{
+            color: white !important;
+            display: block;
+        }
+    }
+    
+}
