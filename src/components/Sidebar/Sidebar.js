@@ -19,11 +19,11 @@ const Sidebar = () => {
         </div>
         {product.categories.map((item, index) => {
           return (
-            <div className="category_accordian">
+            <div className="category_accordian" key={index}>
               <div className="accordian">
                 <div className="card">
                   <div className="card-heading">
-                    <a key={index}>{item.category}</a>
+                    <a href='#'>{item.category}</a>
                   </div>
                   <div className="card-body">
                     <ul>

@@ -1,7 +1,8 @@
 import * as actionTypes from "../../actions/product/types";
 
 const initialState = {
-    categories: []
+    categories: [],
+    products: []
 }
 
 export const product = (state = initialState, action) => {
@@ -11,6 +12,12 @@ export const product = (state = initialState, action) => {
             ...state,
             categories: action.data
         }
+        case actionTypes.PRODUCT: 
+        return {
+            ...state,
+            products: action.data
+        }
+
         default:
             return state;
     }
